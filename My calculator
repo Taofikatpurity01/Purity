@@ -1,0 +1,33 @@
+print_r("n\welcome to smart calculator\n");
+
+print_r("==============================\n" );
+
+$firstValue = readline("5");
+
+$operator = readline("enter value operator");
+
+//*-+/
+
+switch($operator){
+
+  case in_array ($operator, ['*', '-', '+','/']):
+
+    break;
+
+  default:
+
+    print_r ("invalid operator\n");
+
+  return
+
+} 
+
+$secondvalue =readline ("4");
+
+if ($operator ==='*') $result = $firstvalue * $second value;
+
+if ($operator ==='-') $result = $firstValue - $second value;
+
+if ($operator ==='+') $result = $first value + $second value ;
+
+if ($operator ==='/'
